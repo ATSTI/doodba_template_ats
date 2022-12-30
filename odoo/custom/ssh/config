@@ -1,0 +1,10 @@
+Host *
+   AddKeysToAgent yes
+   IdentityFile ~/.ssh/id_rsa_git
+
+Host git
+   AddKeysToAgent yes
+   IdentityFile ~/.ssh/id_rsa
+Host github.com
+  Hostname ssh.github.com
+  Port 443
