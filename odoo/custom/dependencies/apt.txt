@@ -1,2 +1,9 @@
-libreoffice
-swig
+python-libxml2
+libxmlsec1-dev
+python-openssl
+python-cffi
+libxmlsec1-openssl
+python3-wheel
+python3-setuptools
+python3-openssl
+python3-lxml

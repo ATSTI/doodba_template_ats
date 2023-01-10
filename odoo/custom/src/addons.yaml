@@ -1,32 +1,27 @@
-l10n-brazil:
-  - l10n_br_account
-  - l10n_br_account_due_list
-  - l10n_br_account_nfe
-  - l10n_br_account_payment_brcobranca
-  - l10n_br_account_payment_order
-  - l10n_br_base
-  - l10n_br_coa
-  - l10n_br_coa_generic
-  - l10n_br_coa_simple
-  - l10n_br_contract
-  - l10n_br_crm
-  - l10n_br_currency_rate_update
-  - l10n_br_fiscal
-  - l10n_br_fiscal_closing
-  - l10n_br_hr
-  - l10n_br_mis_report
-  - l10n_br_nfe
-  - l10n_br_nfe_spec
-  - l10n_br_nfse
-  - l10n_br_portal
-  - l10n_br_purchase
-  - l10n_br_resource
-  - l10n_br_sale
-  - l10n_br_stock
-  - l10n_br_website_sale
-  - l10n_br_zip
-  - payment_pagseguro
-  - spec_driven_model
+odoo-brasil: ["*"]
+ats-odoo:
+  - account_budget
+  - account_invoice_cfop
+  - account_invoice_renegotiate
+  - account_invoice_tag
+  - account_move_line_nfe
+  - account_move_line_report
+  - account_move_report
+  - account_move_service_report
+  - account_recibo
+  - account_rel_move_line
+  - ats_code_reduced
+  - backend_theme_v12
+  - br_account_invoice_xml
+  - br_boleto_inter
+  - br_cte
+  - br_nfse_sigiss
+  - contract
+  - contract_billing
+  - contract_billing_imovel
+  - contract_corretora
+  - contract_imob
+  # TODO adicionar o que falta
 account-financial-reporting:
   - account_financial_report
   - account_move_line_report_xls
@@ -37,6 +32,7 @@ account-financial-reporting:
 account-invoicing:
   - account_invoice_date_due
   - account_invoice_merge
+  - account_payment_term_extension
 account-payment:
   - account_due_list
 bank-payment:
@@ -45,10 +41,30 @@ bank-payment:
   - account_payment_partner
   - account_payment_purchase
   - account_payment_sale
+# contract:
+  # - contract
+helpdesk:
+  - helpdesk_mgmt
+knowledge:
+  - knowledge
+  - document_page
 mis-builder:
   - mis_builder
   - mis_builder_budget
   - mis_builder_demo
+  - mis_builder_cash_flow
+partner-contact:
+  - base_partner_sequence
+  - partner_contact_birthdate
+  - partner_contact_birthplace
+  - partner_contact_gender
+product-attribute:
+  - product_brand
+  - product_code_unique
+project:
+  - project_task_default_state
+  - project_stage_state
+  - project_description
 report-engine:
   - report_py3o
   - report_xlsx
@@ -57,18 +73,15 @@ sale-workflow:
 server-tools:
   - datetime_formatter
   - auto_backup
+  - auditlog
 server-ux:
   - date_range
   - date_range_account
+social:
+  - mail_attach_existing_attachment
+  - mail_attach_existing_attachment_account
 web:
   - web_responsive
+  - web_widget_color
   - web_advanced_search
   - web_widget_x2many_2d_matrix
-ats-odoo:
-  - pdv_integracao
-  - purchase_sale_price
-  - importar_planilha
-  - payment_account_move_line
-  - account_move_service_report
-
-

@@ -14,10 +14,10 @@
     - ocb $ODOO_VERSION
     # Example of a merge of the PR with the number <PR>
     # - oca refs/pull/<PR>/head
-/opt/odoo/custom/src/l10n-brazil:
+/opt/odoo/custom/src/odoo-brasil:
   depth: $DEPTH_DEFAULT
   remotes:
-    origin: https://github.com/OCA/l10n-brazil.git
+    origin: https://github.com/crsilveira/odoo-brasil.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
@@ -25,13 +25,6 @@
   depth: $DEPTH_DEFAULT
   remotes:
     origin: https://github.com/OCA/account-invoicing.git
-  target: origin $ODOO_VERSION
-  merges:
-    - origin $ODOO_VERSION
-/opt/odoo/custom/src/bank-payment:
-  depth: $DEPTH_DEFAULT
-  remotes:
-    origin: https://github.com/OCA/bank-payment.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
@@ -49,10 +42,59 @@
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+/opt/odoo/custom/src/bank-payment:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/bank-payment.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/contract:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/contract.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/helpdesk:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/helpdesk.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/knowledge:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/knowledge.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
 /opt/odoo/custom/src/mis-builder:
   depth: $DEPTH_DEFAULT
   remotes:
     origin: https://github.com/OCA/mis-builder.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/partner-contact:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/partner-contact.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/product-attribute:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/product-attribute.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/project:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/project.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
