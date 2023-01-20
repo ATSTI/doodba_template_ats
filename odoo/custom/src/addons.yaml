@@ -1,3 +1,15 @@
+ats-odoo:
+  - pdv_integracao
+  - purchase_sale_price
+  - importar_planilha
+  - payment_account_move_line
+  - account_move_service_report
+  - cash_flow_report
+  - sale_order_value_extensive
+  - stock_picking_maintenance
+  - imovel
+  - contract_state
+  - l10n_br_sped_efd_icms_ipi
 l10n-brazil:
   - l10n_br_account
   - l10n_br_account_due_list
@@ -37,6 +49,7 @@ account-financial-reporting:
 account-invoicing:
   - account_invoice_date_due
   - account_invoice_merge
+  - account_payment_term_extension
 account-payment:
   - account_due_list
 bank-payment:
@@ -45,10 +58,32 @@ bank-payment:
   - account_payment_partner
   - account_payment_purchase
   - account_payment_sale
+contract:
+  - contract
+helpdesk:
+  - helpdesk_mgmt
+knowledge:
+  - knowledge
+  - document_page
+maintenance:
+  - maintenance_product
 mis-builder:
   - mis_builder
   - mis_builder_budget
   - mis_builder_demo
+  - mis_builder_cash_flow
+partner-contact:
+  - base_partner_sequence
+  - partner_contact_birthdate
+  - partner_contact_birthplace
+  - partner_contact_gender
+product-attribute:
+  - product_brand
+  - product_code_unique
+project:
+  - project_task_default_state
+  - project_stage_state
+  - project_description
 report-engine:
   - report_py3o
   - report_xlsx
@@ -60,15 +95,12 @@ server-tools:
 server-ux:
   - date_range
   - date_range_account
+social:
+  - mail_attach_existing_attachment
+  - mail_attach_existing_attachment_account
 web:
   - web_responsive
+  - web_widget_color
   - web_advanced_search
   - web_widget_x2many_2d_matrix
-ats-odoo:
-  - pdv_integracao
-  - purchase_sale_price
-  - importar_planilha
-  - payment_account_move_line
-  - account_move_service_report
-
 

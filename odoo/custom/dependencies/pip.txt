@@ -11,6 +11,7 @@ erpbrasil.base
 erpbrasil.edoc
 erpbrasil.assinatura
 erpbrasil.edoc.pdf
+python-sped
 pysftp
 xmldiff
 pycep_correios
