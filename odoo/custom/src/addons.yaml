@@ -21,6 +21,7 @@ ats-odoo:
   - contract_billing_imovel
   - contract_corretora
   - contract_imob
+  - contract_novo
   # TODO adicionar o que falta
 account-financial-reporting:
   - account_financial_report
