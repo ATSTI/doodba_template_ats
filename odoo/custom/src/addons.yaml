@@ -42,6 +42,7 @@ partner-contact:
   - partner_contact_birthdate
   - partner_contact_birthplace
   - partner_contact_gender
+  - partner_manual_rank
 product-attribute:
   - product_brand
   - product_code_unique
