@@ -1,44 +1,5 @@
-ats-odoo:
-  - pdv_integracao
-  - purchase_sale_price
-  - importar_planilha
-  - payment_account_move_line
-  - account_move_service_report
-  - cash_flow_report
-  - sale_order_value_extensive
-  - stock_picking_maintenance
-  - imovel
-  - contract_state
-  - l10n_br_sped_efd_icms_ipi
-l10n-brazil:
-  - l10n_br_account
-  - l10n_br_account_due_list
-  - l10n_br_account_nfe
-  - l10n_br_account_payment_brcobranca
-  - l10n_br_account_payment_order
-  - l10n_br_base
-  - l10n_br_coa
-  - l10n_br_coa_generic
-  - l10n_br_coa_simple
-  - l10n_br_contract
-  - l10n_br_crm
-  - l10n_br_currency_rate_update
-  - l10n_br_fiscal
-  - l10n_br_fiscal_closing
-  - l10n_br_hr
-  - l10n_br_mis_report
-  - l10n_br_nfe
-  - l10n_br_nfe_spec
-  - l10n_br_nfse
-  - l10n_br_portal
-  - l10n_br_purchase
-  - l10n_br_resource
-  - l10n_br_sale
-  - l10n_br_stock
-  - l10n_br_website_sale
-  - l10n_br_zip
-  - payment_pagseguro
-  - spec_driven_model
+ats-odoo: ["*"]
+l10n-brazil: ["*"]
 account-financial-reporting:
   - account_financial_report
   - account_move_line_report_xls
@@ -46,6 +7,8 @@ account-financial-reporting:
   - mis_builder_cash_flow
   - mis_template_financial_report
   - partner_statement
+account-financial-tools:
+  - stock-account-prepare-anglo-saxon-oout-lines-hook
 account-invoicing:
   - account_invoice_date_due
   - account_invoice_merge
@@ -57,6 +20,7 @@ bank-payment:
   - account_payment_mode
   - account_payment_partner
   - account_payment_purchase
+  - account_payment_purchase_stock
   - account_payment_sale
 contract:
   - contract
@@ -67,6 +31,7 @@ knowledge:
   - document_page
 maintenance:
   - maintenance_product
+management-system: ['*']
 mis-builder:
   - mis_builder
   - mis_builder_budget
@@ -98,9 +63,9 @@ server-ux:
 social:
   - mail_attach_existing_attachment
   - mail_attach_existing_attachment_account
+stock-logistics-workflow: ["*"]
 web:
   - web_responsive
   - web_widget_color
   - web_advanced_search
   - web_widget_x2many_2d_matrix
-

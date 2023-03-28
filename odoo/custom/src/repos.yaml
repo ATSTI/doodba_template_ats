@@ -42,6 +42,13 @@
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+/opt/odoo/custom/src/account-financial-tools:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/account-financial-tools.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
 /opt/odoo/custom/src/account-payment:
   depth: $DEPTH_DEFAULT
   remotes:
@@ -60,6 +67,13 @@
   depth: $DEPTH_DEFAULT
   remotes:
     origin: https://github.com/OCA/maintenance.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/management-system:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/management-system.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
@@ -95,6 +109,13 @@
   depth: $DEPTH_DEFAULT
   remotes:
     origin: https://github.com/OCA/server-tools.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/stock-logistics-workflow:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/stock-logistics-workflow.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
