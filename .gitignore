@@ -592,3 +592,7 @@ odoo/auto/addons/website_sms
 odoo/auto/addons/website_twitter
 odoo/auto/odoo.conf
 doodba.doodba_b.code-workspace
+odoo/auto/addons/partner_manual_rank
+.gitignore
+odoo/auto/addons/l10n_br_cnpj_cpf
+odoo/auto/addons/l10n_br_sped_efd_contribuicoes

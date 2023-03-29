@@ -1,6 +1,7 @@
 git+https://github.com/OCA/openupgradelib.git@master
 unicodecsv
 unidecode
+signxml>=2.8.2,<3.1.0
 erpbrasil.base
 erpbrasil.edoc
 py3o.template
