@@ -2,8 +2,6 @@ git+https://github.com/OCA/openupgradelib.git@master
 unicodecsv
 unidecode
 signxml>=2.8.2,<3.1.0
-erpbrasil.base
-erpbrasil.edoc
 py3o.template
 py3o.formats
 email-validator
@@ -12,9 +10,11 @@ erpbrasil.base
 erpbrasil.edoc
 erpbrasil.assinatura
 erpbrasil.edoc.pdf
-python-sped
+git+https://github.com/ATSTI/python-sped.git@master
 pysftp
 xmldiff
 pycep_correios
 odoo_test_helper
 git+https://github.com/OCA/odoo-test-helper.git@master
+git+https://github.com/erpbrasil/workalendar.git@master
+git+https://github.com/erpbrasil/febraban-python.git@master

@@ -17,7 +17,28 @@
 /opt/odoo/custom/src/l10n-brazil:
   depth: $DEPTH_DEFAULT
   remotes:
-    origin: https://github.com/OCA/l10n-brazil.git
+    origin: https://github.com/ATSTI/l10n-brazil.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/account-analytic:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/account-analytic.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/account-budgeting:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/account-budgeting.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/account-closing:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/account-closing.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
@@ -63,6 +84,20 @@
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+/opt/odoo/custom/src/field-service:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/field-service.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/fleet:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/fleet.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION    
 /opt/odoo/custom/src/maintenance:
   depth: $DEPTH_DEFAULT
   remotes:
@@ -81,6 +116,20 @@
   depth: $DEPTH_DEFAULT
   remotes:
     origin: https://github.com/OCA/mis-builder.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/partner-contact:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/partner-contact.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/purchase-workflow:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/purchase-workflow.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
