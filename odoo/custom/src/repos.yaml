@@ -77,6 +77,13 @@
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+/opt/odoo/custom/src/account-reconcile:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/account-reconcile.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
 /opt/odoo/custom/src/contract:
   depth: $DEPTH_DEFAULT
   remotes:

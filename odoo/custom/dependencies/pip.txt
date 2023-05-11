@@ -10,6 +10,7 @@ erpbrasil.base
 erpbrasil.edoc
 erpbrasil.assinatura
 erpbrasil.edoc.pdf
+erpbrasil.bank.inter
 git+https://github.com/ATSTI/python-sped.git@master
 pysftp
 xmldiff
