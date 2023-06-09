@@ -20,7 +20,7 @@ services:
       - smtp
     networks:
       default:
-      globalwhitelist_shared:
+        #globalwhitelist_shared:
     labels:
       doodba.domain.main: ""
     command:
@@ -59,8 +59,8 @@ networks:
     driver_opts:
       encrypted: 1
 
-  globalwhitelist_shared:
-    external: true
+        #globalwhitelist_shared:
+        #external: true
 
 volumes:
   filestore:
