@@ -119,6 +119,13 @@
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+/opt/odoo/custom/src/manufacture:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/manufacture.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
 /opt/odoo/custom/src/mis-builder:
   depth: $DEPTH_DEFAULT
   remotes:
