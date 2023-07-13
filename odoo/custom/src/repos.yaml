@@ -18,12 +18,13 @@
   depth: $DEPTH_DEFAULT
   remotes:
     # origin: https://github.com/ATSTI/l10n-brazil.git
-    origin: https://github.com/OCA/l10n-brazil.git
+    #origin: https://github.com/OCA/l10n-brazil.git
+    origin: https://github.com/akretion/l10n-brazil.git
   target: origin $ODOO_VERSION
   merges:
     # - origin $ODOO_VERSION
     # executar felicita
-    - origin pull/2601
+    - origin 14.0-kill-dummy-14-with-tests
 /opt/odoo/custom/src/account-analytic:
   depth: $DEPTH_DEFAULT
   remotes:
