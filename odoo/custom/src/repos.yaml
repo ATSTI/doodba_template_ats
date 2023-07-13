@@ -53,13 +53,6 @@
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
-/opt/odoo/custom/src/bank-payment:
-  depth: $DEPTH_DEFAULT
-  remotes:
-    origin: https://github.com/OCA/bank-payment.git
-  target: origin $ODOO_VERSION
-  merges:
-    - origin $ODOO_VERSION
 /opt/odoo/custom/src/account-financial-reporting:
   depth: $DEPTH_DEFAULT
   remotes:
@@ -85,6 +78,20 @@
   depth: $DEPTH_DEFAULT
   remotes:
     origin: https://github.com/OCA/account-reconcile.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/bank-payment:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/bank-payment.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+/opt/odoo/custom/src/bank-statement-import:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/bank-statement-import.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
