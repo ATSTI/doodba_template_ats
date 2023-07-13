@@ -109,6 +109,13 @@
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+/opt/odoo/custom/src/delivery-carrier:
+  depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://github.com/OCA/delivery-carrier.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
 /opt/odoo/custom/src/field-service:
   depth: $DEPTH_DEFAULT
   remotes:
