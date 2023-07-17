@@ -14,6 +14,10 @@ git+https://github.com/erpbrasil/erpbrasil.bank.inter.git@master
 git+https://github.com/ATSTI/python-sped.git@master
 pysftp
 cachetools
+cerberus
+pyquerystring
+parse-accept-language
+apispec>=4.0.0
 xmldiff
 pycep_correios
 mock
