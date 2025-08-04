@@ -49,13 +49,6 @@
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
-/opt/odoo/custom/src/contract:
-  depth: $DEPTH_DEFAULT
-  remotes:
-    origin: https://github.com/OCA/contract.git
-  target: origin $ODOO_VERSION
-  merges:
-    - origin $ODOO_VERSION
 /opt/odoo/custom/src/helpdesk:
   depth: $DEPTH_DEFAULT
   remotes:
