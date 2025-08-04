@@ -2,8 +2,8 @@ unicodecsv
 unidecode
 pysftp
 xmldiff
-odoo_test_helper
-git+https://github.com/OCA/odoo-test-helper.git@master
+#odoo_test_helper
+#git+https://github.com/OCA/odoo-test-helper.git@master
 
 
 # trustcode-addons

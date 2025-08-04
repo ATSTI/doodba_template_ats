@@ -3000,6 +3000,10 @@
             "remoteRoot": "/opt/odoo/auto/addons/import_product/"
           },
           {
+            "localRoot": "${workspaceFolder:ats-odoo}/contract",
+            "remoteRoot": "/opt/odoo/auto/addons/contract/"
+          },
+          {
             "localRoot": "${workspaceFolder:ats-odoo}/contract_novo",
             "remoteRoot": "/opt/odoo/auto/addons/contract_novo/"
           },
@@ -3088,152 +3092,8 @@
             "remoteRoot": "/opt/odoo/auto/addons/pos_order_report/"
           },
           {
-            "localRoot": "${workspaceFolder:ats-odoo}/contract_ats",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_ats/"
-          },
-          {
             "localRoot": "${workspaceFolder:ats-odoo}/account_financial_report",
             "remoteRoot": "/opt/odoo/auto/addons/account_financial_report/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_mandate",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_mandate/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_sale_generation",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_sale_generation/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_mrp",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_mrp/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_variable_qty_timesheet",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_variable_qty_timesheet/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_sale_payment_mode",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_sale_payment_mode/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_transmit_method",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_transmit_method/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_layout_category_hide_detail",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_layout_category_hide_detail/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_invoice_start_end_dates",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_invoice_start_end_dates/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_variable_quantity",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_variable_quantity/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_sale_mandate",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_sale_mandate/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_legal_sale_fieldservice",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_legal_sale_fieldservice/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/product_contract",
-            "remoteRoot": "/opt/odoo/auto/addons/product_contract/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_price_revision",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_price_revision/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_legal",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_legal/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_maintenance",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_maintenance/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_variable_qty_prorated",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_variable_qty_prorated/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_invoice_auto_validate",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_invoice_auto_validate/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_legal_sale",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_legal_sale/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_serviceprofile",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_serviceprofile/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_payment_mode",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_payment_mode/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_helpdesk_mgmt",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_helpdesk_mgmt/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract",
-            "remoteRoot": "/opt/odoo/auto/addons/contract/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_variable_qty_sale_order_line",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_variable_qty_sale_order_line/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_repair",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_repair/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_sale_invoicing",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_sale_invoicing/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_queue_job",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_queue_job/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_sale",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_sale/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_project",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_project/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/product_contract_variable_quantity",
-            "remoteRoot": "/opt/odoo/auto/addons/product_contract_variable_quantity/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_digitized_signature",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_digitized_signature/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_stock",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_stock/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_sale",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_sale/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/contract_forecast",
-            "remoteRoot": "/opt/odoo/auto/addons/contract_forecast/"
-          },
-          {
-            "localRoot": "${workspaceFolder:contract}/agreement_account",
-            "remoteRoot": "/opt/odoo/auto/addons/agreement_account/"
           },
           {
             "localRoot": "${workspaceFolder:sale-workflow}/sale_tier_validation",
@@ -7369,6 +7229,10 @@
             "path": "${workspaceFolder:ats-odoo}/import_product/static/"
           },
           {
+            "url": "http://localhost:12069/contract/static/",
+            "path": "${workspaceFolder:ats-odoo}/contract/static/"
+          },
+          {
             "url": "http://localhost:12069/contract_novo/static/",
             "path": "${workspaceFolder:ats-odoo}/contract_novo/static/"
           },
@@ -7457,152 +7321,8 @@
             "path": "${workspaceFolder:ats-odoo}/pos_order_report/static/"
           },
           {
-            "url": "http://localhost:12069/contract_ats/static/",
-            "path": "${workspaceFolder:ats-odoo}/contract_ats/static/"
-          },
-          {
             "url": "http://localhost:12069/account_financial_report/static/",
             "path": "${workspaceFolder:ats-odoo}/account_financial_report/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement/static/",
-            "path": "${workspaceFolder:contract}/agreement/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_mandate/static/",
-            "path": "${workspaceFolder:contract}/contract_mandate/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_sale_generation/static/",
-            "path": "${workspaceFolder:contract}/contract_sale_generation/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_mrp/static/",
-            "path": "${workspaceFolder:contract}/agreement_mrp/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_variable_qty_timesheet/static/",
-            "path": "${workspaceFolder:contract}/contract_variable_qty_timesheet/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_sale_payment_mode/static/",
-            "path": "${workspaceFolder:contract}/contract_sale_payment_mode/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_transmit_method/static/",
-            "path": "${workspaceFolder:contract}/contract_transmit_method/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_layout_category_hide_detail/static/",
-            "path": "${workspaceFolder:contract}/contract_layout_category_hide_detail/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_invoice_start_end_dates/static/",
-            "path": "${workspaceFolder:contract}/contract_invoice_start_end_dates/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_variable_quantity/static/",
-            "path": "${workspaceFolder:contract}/contract_variable_quantity/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_sale_mandate/static/",
-            "path": "${workspaceFolder:contract}/contract_sale_mandate/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_legal_sale_fieldservice/static/",
-            "path": "${workspaceFolder:contract}/agreement_legal_sale_fieldservice/static/"
-          },
-          {
-            "url": "http://localhost:12069/product_contract/static/",
-            "path": "${workspaceFolder:contract}/product_contract/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_price_revision/static/",
-            "path": "${workspaceFolder:contract}/contract_price_revision/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_legal/static/",
-            "path": "${workspaceFolder:contract}/agreement_legal/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_maintenance/static/",
-            "path": "${workspaceFolder:contract}/agreement_maintenance/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_variable_qty_prorated/static/",
-            "path": "${workspaceFolder:contract}/contract_variable_qty_prorated/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_invoice_auto_validate/static/",
-            "path": "${workspaceFolder:contract}/contract_invoice_auto_validate/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_legal_sale/static/",
-            "path": "${workspaceFolder:contract}/agreement_legal_sale/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_serviceprofile/static/",
-            "path": "${workspaceFolder:contract}/agreement_serviceprofile/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_payment_mode/static/",
-            "path": "${workspaceFolder:contract}/contract_payment_mode/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_helpdesk_mgmt/static/",
-            "path": "${workspaceFolder:contract}/agreement_helpdesk_mgmt/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract/static/",
-            "path": "${workspaceFolder:contract}/contract/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_variable_qty_sale_order_line/static/",
-            "path": "${workspaceFolder:contract}/contract_variable_qty_sale_order_line/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_repair/static/",
-            "path": "${workspaceFolder:contract}/agreement_repair/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_sale_invoicing/static/",
-            "path": "${workspaceFolder:contract}/contract_sale_invoicing/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_queue_job/static/",
-            "path": "${workspaceFolder:contract}/contract_queue_job/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_sale/static/",
-            "path": "${workspaceFolder:contract}/agreement_sale/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_project/static/",
-            "path": "${workspaceFolder:contract}/agreement_project/static/"
-          },
-          {
-            "url": "http://localhost:12069/product_contract_variable_quantity/static/",
-            "path": "${workspaceFolder:contract}/product_contract_variable_quantity/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_digitized_signature/static/",
-            "path": "${workspaceFolder:contract}/contract_digitized_signature/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_stock/static/",
-            "path": "${workspaceFolder:contract}/agreement_stock/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_sale/static/",
-            "path": "${workspaceFolder:contract}/contract_sale/static/"
-          },
-          {
-            "url": "http://localhost:12069/contract_forecast/static/",
-            "path": "${workspaceFolder:contract}/contract_forecast/static/"
-          },
-          {
-            "url": "http://localhost:12069/agreement_account/static/",
-            "path": "${workspaceFolder:contract}/agreement_account/static/"
           },
           {
             "url": "http://localhost:12069/sale_tier_validation/static/",
@@ -9533,6 +9253,7 @@
           "http://localhost:12069/br_boleto_inter/static/": "${workspaceFolder:ats-odoo}/br_boleto_inter/static/",
           "http://localhost:12069/import_nfe_planilha/static/": "${workspaceFolder:ats-odoo}/import_nfe_planilha/static/",
           "http://localhost:12069/import_product/static/": "${workspaceFolder:ats-odoo}/import_product/static/",
+          "http://localhost:12069/contract/static/": "${workspaceFolder:ats-odoo}/contract/static/",
           "http://localhost:12069/contract_novo/static/": "${workspaceFolder:ats-odoo}/contract_novo/static/",
           "http://localhost:12069/br_odoo_12/static/": "${workspaceFolder:ats-odoo}/br_odoo_12/static/",
           "http://localhost:12069/contract_invoice/static/": "${workspaceFolder:ats-odoo}/contract_invoice/static/",
@@ -9555,42 +9276,6 @@
           "http://localhost:12069/l10n_br_account_reports/static/": "${workspaceFolder:ats-odoo}/l10n_br_account_reports/static/",
           "http://localhost:12069/discount_total/static/": "${workspaceFolder:ats-odoo}/discount_total/static/",
           "http://localhost:12069/pos_order_report/static/": "${workspaceFolder:ats-odoo}/pos_order_report/static/",
-          "http://localhost:12069/contract_ats/static/": "${workspaceFolder:ats-odoo}/contract_ats/static/",
-          "http://localhost:12069/agreement/static/": "${workspaceFolder:contract}/agreement/static/",
-          "http://localhost:12069/contract_mandate/static/": "${workspaceFolder:contract}/contract_mandate/static/",
-          "http://localhost:12069/contract_sale_generation/static/": "${workspaceFolder:contract}/contract_sale_generation/static/",
-          "http://localhost:12069/agreement_mrp/static/": "${workspaceFolder:contract}/agreement_mrp/static/",
-          "http://localhost:12069/contract_variable_qty_timesheet/static/": "${workspaceFolder:contract}/contract_variable_qty_timesheet/static/",
-          "http://localhost:12069/contract_sale_payment_mode/static/": "${workspaceFolder:contract}/contract_sale_payment_mode/static/",
-          "http://localhost:12069/contract_transmit_method/static/": "${workspaceFolder:contract}/contract_transmit_method/static/",
-          "http://localhost:12069/contract_layout_category_hide_detail/static/": "${workspaceFolder:contract}/contract_layout_category_hide_detail/static/",
-          "http://localhost:12069/contract_invoice_start_end_dates/static/": "${workspaceFolder:contract}/contract_invoice_start_end_dates/static/",
-          "http://localhost:12069/contract_variable_quantity/static/": "${workspaceFolder:contract}/contract_variable_quantity/static/",
-          "http://localhost:12069/contract_sale_mandate/static/": "${workspaceFolder:contract}/contract_sale_mandate/static/",
-          "http://localhost:12069/agreement_legal_sale_fieldservice/static/": "${workspaceFolder:contract}/agreement_legal_sale_fieldservice/static/",
-          "http://localhost:12069/product_contract/static/": "${workspaceFolder:contract}/product_contract/static/",
-          "http://localhost:12069/contract_price_revision/static/": "${workspaceFolder:contract}/contract_price_revision/static/",
-          "http://localhost:12069/agreement_legal/static/": "${workspaceFolder:contract}/agreement_legal/static/",
-          "http://localhost:12069/agreement_maintenance/static/": "${workspaceFolder:contract}/agreement_maintenance/static/",
-          "http://localhost:12069/contract_variable_qty_prorated/static/": "${workspaceFolder:contract}/contract_variable_qty_prorated/static/",
-          "http://localhost:12069/contract_invoice_auto_validate/static/": "${workspaceFolder:contract}/contract_invoice_auto_validate/static/",
-          "http://localhost:12069/agreement_legal_sale/static/": "${workspaceFolder:contract}/agreement_legal_sale/static/",
-          "http://localhost:12069/agreement_serviceprofile/static/": "${workspaceFolder:contract}/agreement_serviceprofile/static/",
-          "http://localhost:12069/contract_payment_mode/static/": "${workspaceFolder:contract}/contract_payment_mode/static/",
-          "http://localhost:12069/agreement_helpdesk_mgmt/static/": "${workspaceFolder:contract}/agreement_helpdesk_mgmt/static/",
-          "http://localhost:12069/contract/static/": "${workspaceFolder:contract}/contract/static/",
-          "http://localhost:12069/contract_variable_qty_sale_order_line/static/": "${workspaceFolder:contract}/contract_variable_qty_sale_order_line/static/",
-          "http://localhost:12069/agreement_repair/static/": "${workspaceFolder:contract}/agreement_repair/static/",
-          "http://localhost:12069/contract_sale_invoicing/static/": "${workspaceFolder:contract}/contract_sale_invoicing/static/",
-          "http://localhost:12069/contract_queue_job/static/": "${workspaceFolder:contract}/contract_queue_job/static/",
-          "http://localhost:12069/agreement_sale/static/": "${workspaceFolder:contract}/agreement_sale/static/",
-          "http://localhost:12069/agreement_project/static/": "${workspaceFolder:contract}/agreement_project/static/",
-          "http://localhost:12069/product_contract_variable_quantity/static/": "${workspaceFolder:contract}/product_contract_variable_quantity/static/",
-          "http://localhost:12069/contract_digitized_signature/static/": "${workspaceFolder:contract}/contract_digitized_signature/static/",
-          "http://localhost:12069/agreement_stock/static/": "${workspaceFolder:contract}/agreement_stock/static/",
-          "http://localhost:12069/contract_sale/static/": "${workspaceFolder:contract}/contract_sale/static/",
-          "http://localhost:12069/contract_forecast/static/": "${workspaceFolder:contract}/contract_forecast/static/",
-          "http://localhost:12069/agreement_account/static/": "${workspaceFolder:contract}/agreement_account/static/",
           "http://localhost:12069/sale_tier_validation/static/": "${workspaceFolder:sale-workflow}/sale_tier_validation/static/",
           "http://localhost:12069/sale_order_type/static/": "${workspaceFolder:sale-workflow}/sale_order_type/static/",
           "http://localhost:12069/sale_manual_delivery/static/": "${workspaceFolder:sale-workflow}/sale_manual_delivery/static/",
@@ -9906,9 +9591,6 @@
     },
     {
       "path": "odoo/custom/src/bank-payment"
-    },
-    {
-      "path": "odoo/custom/src/contract"
     },
     {
       "path": "odoo/custom/src/helpdesk"
