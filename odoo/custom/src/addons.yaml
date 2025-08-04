@@ -1,3 +1,4 @@
+odoo: ["*"]
 odoo-brasil: ["*"]
 ats-odoo:
   - account_budget
@@ -16,12 +17,24 @@ ats-odoo:
   - br_boleto_inter
   - br_cte
   - br_nfse_sigiss
+  - br_odoo_12
   - contract
   - contract_billing
   - contract_billing_imovel
   - contract_corretora
   - contract_imob
   - contract_novo
+  - discount_total
+  - import_client
+  - import_lista_preco
+  - import_product
+  - invoice_label
+  - nfe_purchase_import
+  - payment_cheque
+  - payment_installment
+  - payment_move_cheque
+  - product_pricelist_codigo
+  - sale_romaneio
   # TODO adicionar o que falta
 account-financial-reporting:
   - account_financial_report
@@ -62,6 +75,8 @@ partner-contact:
 product-attribute:
   - product_brand
   - product_code_unique
+  - product_logistics_uom
+  - product_dimension
 project:
   - project_task_default_state
   - project_stage_state
@@ -86,3 +101,4 @@ web:
   - web_widget_color
   - web_advanced_search
   - web_widget_x2many_2d_matrix
+  - web_pwa_oca
