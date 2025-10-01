@@ -47,6 +47,7 @@ services:
     volumes:
       - ./odoo/custom:/opt/odoo/custom:ro,z
       - ./odoo/auto:/opt/odoo/auto:rw,z
+      - ./odoo/auto:/opt/odoo/outros:rw,z
       - ./odoo/filestore:/var/lib/odoo:rw,z
     depends_on:
       - db
@@ -169,7 +170,7 @@ services:
 
 networks:
   default:
-    internal: ${DOODBA_NETWORK_INTERNAL-true}
+    internal: ${DOODBA_NETWORK_INTERNAL-false}
   public:
 
 volumes:
