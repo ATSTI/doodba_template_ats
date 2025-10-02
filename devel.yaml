@@ -9,9 +9,9 @@ services:
       default:
       public:
     ports:
-      - "127.0.0.1:12899:6899"
-      - "127.0.0.1:12069:8069"
-      - "127.0.0.1:12072:8072"
+      - "127.0.0.1:16899:6899"
+      - "127.0.0.1:16069:8069"
+      - "127.0.0.1:16072:8072"
     environment:
       PORT: "6899 8069 8072"
       TARGET: odoo
@@ -36,6 +36,7 @@ services:
       INITIAL_LANG: "pt_BR"
       LIST_DB: "true"
       DEBUGPY_ENABLE: "${DOODBA_DEBUGPY_ENABLE:-0}"
+      PGHOST: 172.17.0.1
       PGDATABASE: &dbname devel
       PYTHONDONTWRITEBYTECODE: 1
       PYTHONOPTIMIZE: ""
@@ -45,12 +46,11 @@ services:
       # To avoid installing demo data export DOODBA_WITHOUT_DEMO=all
       WITHOUT_DEMO: "${DOODBA_WITHOUT_DEMO-false}"
     volumes:
-      - ./odoo/custom:/opt/odoo/custom:ro,z
-      - ./odoo/auto:/opt/odoo/auto:rw,z
-      - ./odoo/auto:/opt/odoo/outros:rw,z
-      - ./odoo/filestore:/var/lib/odoo:rw,z
+      - ~/tmp/odoo_doodba16/custom:/opt/odoo/custom:ro,z
+      - ~/tmp/odoo_doodba16/auto:/opt/odoo/auto:rw,z
+      - ~/tmp/odoo_doodba16/auto:/opt/odoo/outros:rw,z
+      - ~/tmp/odoo_doodba16/filestore:/var/lib/odoo:rw,z
     depends_on:
-      - db
       - proxy_cdnjs_cloudflare_com
       - proxy_fonts_googleapis_com
       - proxy_fonts_gstatic_com
@@ -67,23 +67,13 @@ services:
       - --workers=0
       - --dev=reload,qweb,werkzeug,xml
 
-  db:
-    extends:
-      file: common.yaml
-      service: db
-    environment:
-      POSTGRES_DB: *dbname
-      POSTGRES_PASSWORD: odoopassword
-
   pgweb:
     image: docker.io/sosedoff/pgweb
     networks: *public
     ports:
-      - "127.0.0.1:12081:8081"
+      - "127.0.0.1:16081:8081"
     environment:
-      DATABASE_URL: postgres://odoo:odoopassword@db:5432/devel?sslmode=disable
-    depends_on:
-      - db
+      DATABASE_URL: postgres://odoo_teste:odoo@Teste@172.17.0.1:5432/devel?sslmode=disable
 
   smtp:
     extends:
@@ -91,13 +81,13 @@ services:
       service: smtpfake
     networks: *public
     ports:
-      - "127.0.0.1:12025:8025"
+      - "127.0.0.1:16025:8025"
 
   wdb:
     image: docker.io/kozea/wdb
     networks: *public
     ports:
-      - "127.0.0.1:12984:1984"
+      - "127.0.0.1:16984:1984"
     # HACK https://github.com/Kozea/wdb/issues/136
     init: true
 
@@ -175,4 +165,3 @@ networks:
 
 volumes:
   filestore:
-  db:

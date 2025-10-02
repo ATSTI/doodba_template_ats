@@ -14,6 +14,9 @@ services:
       WITHOUT_DEMO: "${DOODBA_WITHOUT_DEMO-all}"
       SMTP_PORT: "1025"
       SMTP_SERVER: smtplocal
+      # Just in case you use queue_job
+      ODOO_QUEUE_JOB_CHANNELS: "root:1"
+      PGHOST: odoo_12_teste-12-0-test-db
     restart: unless-stopped
     depends_on:
       - db
@@ -25,15 +28,21 @@ services:
       doodba.domain.main: ""
     command:
       - odoo
-      - --workers=2
+      - --workers=3
       - --max-cron-threads=1
 
   db:
     extends:
       file: common.yaml
       service: db
+    environment:
+      DB_HOST: odoo_16_teste-16-0-test-db
     env_file:
       - .docker/db-creation.env
+    networks:
+      default:
+        aliases:
+            - "odoo_12_teste-16-0-test-db"
     restart: unless-stopped
 
   smtp:

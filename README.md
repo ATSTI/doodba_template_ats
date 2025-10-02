@@ -1,10 +1,10 @@
 [![Doodba deployment](https://img.shields.io/badge/deployment-doodba-informational)](https://github.com/Tecnativa/doodba)
-[![Last template update](https://img.shields.io/badge/last%20template%20update-f2bc91c-informational)](https://github.com/Tecnativa/doodba-copier-template/tree/f2bc91c)
+[![Last template update](https://img.shields.io/badge/last%20template%20update-v8.3.10-informational)](https://github.com/Tecnativa/doodba-copier-template/tree/v8.3.10)
 [![Odoo](https://img.shields.io/badge/odoo-v12.0-a3478a)](https://github.com/odoo/odoo/tree/12.0)
 [![BSL-1.0 license](https://img.shields.io/badge/license-BSL--1.0-success})](LICENSE)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
 
-# myproject-odoo - a Doodba deployment
+# odoo_12_teste - a Doodba deployment
 
 This project is a Doodba scaffolding. Check upstream docs on the matter:
 

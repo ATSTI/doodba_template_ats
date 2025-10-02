@@ -1,104 +1,38 @@
-odoo: ["*"]
-odoo-brasil: ["*"]
-ats-odoo:
-  - account_budget
-  - account_invoice_cfop
-  - account_invoice_renegotiate
-  - account_invoice_tag
-  - account_move_line_nfe
-  - account_move_line_report
-  - account_move_report
-  - account_move_service_report
-  - account_recibo
-  - account_rel_move_line
-  - ats_code_reduced
-  - backend_theme_v12
-  - br_account_invoice_xml
-  - br_boleto_inter
-  - br_cte
-  - br_nfse_sigiss
-  - br_odoo_12
-  - contract
-  - contract_billing
-  - contract_billing_imovel
-  - contract_corretora
-  - contract_imob
-  - contract_novo
-  - discount_total
-  - import_client
-  - import_lista_preco
-  - import_product
-  - invoice_label
-  - nfe_purchase_import
-  - payment_cheque
-  - payment_installment
-  - payment_move_cheque
-  - product_pricelist_codigo
-  - sale_romaneio
-  # TODO adicionar o que falta
-account-financial-reporting:
-  - account_financial_report
-  - account_move_line_report_xls
-  - account_tax_balance
-  - mis_builder_cash_flow
-  - mis_template_financial_report
-  - partner_statement
-account-invoicing:
-  - account_invoice_date_due
-  - account_invoice_merge
-  - account_payment_term_extension
-account-payment:
-  - account_due_list
-bank-payment:
-  - account_payment_order
-  - account_payment_mode
-  - account_payment_partner
-  - account_payment_purchase
-  - account_payment_sale
-# contract:
-  # - contract
-helpdesk:
-  - helpdesk_mgmt
-knowledge:
-  - knowledge
-  - document_page
-mis-builder:
-  - mis_builder
-  - mis_builder_budget
-  - mis_builder_demo
-  - mis_builder_cash_flow
-partner-contact:
-  - base_partner_sequence
-  - partner_contact_birthdate
-  - partner_contact_birthplace
-  - partner_contact_gender
-product-attribute:
-  - product_brand
-  - product_code_unique
-  - product_logistics_uom
-  - product_dimension
-project:
-  - project_task_default_state
-  - project_stage_state
-  - project_description
-report-engine:
-  - report_py3o
-  - report_xlsx
-sale-workflow:
-  - sale_order_partner_restrict
-server-tools:
-  - datetime_formatter
-  - auto_backup
-  - auditlog
-server-ux:
-  - date_range
-  - date_range_account
-social:
-  - mail_attach_existing_attachment
-  - mail_attach_existing_attachment_account
-web:
-  - web_responsive
-  - web_widget_color
-  - web_advanced_search
-  - web_widget_x2many_2d_matrix
-  - web_pwa_oca
+ats-odoo: ["*"]
+account-analytic: ["*"]
+account-financial-reporting: ["*"]
+account-financial-tools: ["*"]
+account-invoice-reporting: ["*"]
+account-invoicing: ["*"]
+account-payment: ["*"]
+account-reconcile: ["*"]
+bank-payment: ["*"]
+bank-statement-import: ["*"]
+brand: ["*"]
+connector: ["*"]
+contract: ["*"]
+delivery-carrier: ["*"]
+edi: ["*"]
+helpdesk: ["*"]
+knowledge: ["*"]
+l10n-brazil: ["*"]
+maintenance: ["*"]
+management-system: ['*']
+manufacture: ["*"]
+mis-builder: ["*"]
+multi-company: ["*"]
+partner-contact: ["*"]
+product-attribute: ["*"]
+project: ["*"]
+purchase-workflow: ["*"]
+reporting-engine: ["*"]
+rest-framework: ["*"]
+sale-workflow: ["*"]
+server-tools: ["*"]
+server-ux: ["*"]
+social: ["*"]
+stock-logistics-barcode: ["*"]
+stock-logistics-reporting: ["*"]
+stock-logistics-warehouse: ["*"]
+stock-logistics-workflow: ["*"]
+web: ["*"]
