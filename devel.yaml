@@ -9,9 +9,9 @@ services:
       default:
       public:
     ports:
-      - "127.0.0.1:16899:6899"
-      - "127.0.0.1:16069:8069"
-      - "127.0.0.1:16072:8072"
+      - "127.0.0.1:18899:6899"
+      - "127.0.0.1:18069:8069"
+      - "127.0.0.1:18072:8072"
     environment:
       PORT: "6899 8069 8072"
       TARGET: odoo
@@ -46,10 +46,10 @@ services:
       # To avoid installing demo data export DOODBA_WITHOUT_DEMO=all
       WITHOUT_DEMO: "${DOODBA_WITHOUT_DEMO-false}"
     volumes:
-      - ~/tmp/odoo_doodba16/custom:/opt/odoo/custom:ro,z
-      - ~/tmp/odoo_doodba16/auto:/opt/odoo/auto:rw,z
-      - ~/tmp/odoo_doodba16/auto:/opt/odoo/outros:rw,z
-      - ~/tmp/odoo_doodba16/filestore:/var/lib/odoo:rw,z
+      - ~/tmp/odoo_doodba18/custom:/opt/odoo/custom:ro,z
+      - ~/tmp/odoo_doodba18/auto:/opt/odoo/auto:rw,z
+      - ~/tmp/odoo_doodba18/auto:/opt/odoo/outros:rw,z
+      - ~/tmp/odoo_doodba18/filestore:/var/lib/odoo:rw,z
     depends_on:
       - proxy_cdnjs_cloudflare_com
       - proxy_fonts_googleapis_com
@@ -71,7 +71,7 @@ services:
     image: docker.io/sosedoff/pgweb
     networks: *public
     ports:
-      - "127.0.0.1:16081:8081"
+      - "127.0.0.1:18081:8081"
     environment:
       DATABASE_URL: postgres://odoo_teste:odoo@Teste@172.17.0.1:5432/devel?sslmode=disable
 
@@ -81,13 +81,13 @@ services:
       service: smtpfake
     networks: *public
     ports:
-      - "127.0.0.1:16025:8025"
+      - "127.0.0.1:18025:8025"
 
   wdb:
     image: docker.io/kozea/wdb
     networks: *public
     ports:
-      - "127.0.0.1:16984:1984"
+      - "127.0.0.1:18984:1984"
     # HACK https://github.com/Kozea/wdb/issues/136
     init: true
 

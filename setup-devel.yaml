@@ -16,7 +16,7 @@ services:
       args:
         AGGREGATE: "false"
         DEPTH_DEFAULT: 100
-        ODOO_VERSION: "12.0"
+        ODOO_VERSION: "18.0"
         PYTHONOPTIMIZE: ""
         PIP_INSTALL_ODOO: "false"
         CLEAN: "false"
@@ -26,7 +26,7 @@ services:
     networks:
       - public
     volumes:
-      - ~/tmp/odoo_doodba16/custom/src:/opt/odoo/custom/src:rw,z
+      - ~/tmp/odoo_doodba18/custom/src:/opt/odoo/custom/src:rw,z
     environment:
       DEPTH_DEFAULT: 100
       # XXX Export these variables before running setup to own the files
