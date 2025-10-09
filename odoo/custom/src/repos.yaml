@@ -14,13 +14,6 @@
     - ocb $ODOO_VERSION
     # Example of a merge of the PR with the number <PR>
     # - oca refs/pull/<PR>/head
-./ats-odoo:
-  depth: $DEPTH_DEFAULT
-  remotes:
-    origin: https://github.com/ATSTI/ats-odoo.git
-  target: origin $ODOO_VERSION
-  merges:
-    - origin $ODOO_VERSION
 ./l10n-brazil:
   depth: $DEPTH_DEFAULT
   remotes:

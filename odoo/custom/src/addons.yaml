@@ -1,4 +1,3 @@
-ats-odoo: ["*"]
 account-analytic: ["*"]
 account-financial-reporting: ["*"]
 account-financial-tools: ["*"]

@@ -46,10 +46,10 @@ services:
       # To avoid installing demo data export DOODBA_WITHOUT_DEMO=all
       WITHOUT_DEMO: "${DOODBA_WITHOUT_DEMO-false}"
     volumes:
-      - ~/tmp/odoo_doodba18/custom:/opt/odoo/custom:ro,z
-      - ~/tmp/odoo_doodba18/auto:/opt/odoo/auto:rw,z
-      - ~/tmp/odoo_doodba18/auto:/opt/odoo/outros:rw,z
-      - ~/tmp/odoo_doodba18/filestore:/var/lib/odoo:rw,z
+      - ./odoo/custom:/opt/odoo/custom:ro,z
+      - ./odoo/auto:/opt/odoo/auto:rw,z
+      - ./odoo/auto:/opt/odoo/outros:rw,z
+      - ./odoo/filestore:/var/lib/odoo:rw,z
     depends_on:
       - proxy_cdnjs_cloudflare_com
       - proxy_fonts_googleapis_com
